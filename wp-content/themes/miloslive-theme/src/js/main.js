@@ -1,1 +1,1 @@
-console.log("Gluposti");
+import "./burger-menu.js";
