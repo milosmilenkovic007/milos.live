@@ -17,3 +17,8 @@ vendor/
 # Ignorisanje OS fajlova
 .DS_Store
 Thumbs.db
+
+# Ignorisanje WordPress default tema
+wp-content/themes/twentytwenty*/
+wp-content/themes/twentytwentythree/
+wp-content/themes/twentytwentytwo/
