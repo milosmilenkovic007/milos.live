@@ -1,0 +1,21 @@
+{
+  "name": "miloslive-theme",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build:sass": "sass src/scss/style.scss assets/css/style.css",
+    "watch:sass": "sass --watch src/scss/style.scss assets/css/style.css",
+    "build:js": "cp src/js/main.js assets/js/main.js",
+    "watch:js": "chokidar src/js/main.js -c 'npm run build:js'",
+    "watch": "npm-run-all --parallel watch:sass watch:js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "npm-run-all": "^4.1.5",
+    "sass": "^1.84.0"
+  }
+}
