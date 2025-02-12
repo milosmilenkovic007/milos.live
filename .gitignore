@@ -1,0 +1,19 @@
+# Ignorisanje konfiguracionih fajlova
+wp-config.php
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# Ignorisanje Plesk/Apache log fajlova
+error_log
+logs/
+*.log
+
+# Ignorisanje verzionisanih paketa
+node_modules/
+vendor/
+.env
+
+# Ignorisanje OS fajlova
+.DS_Store
+Thumbs.db
