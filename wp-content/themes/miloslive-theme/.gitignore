@@ -1,0 +1,4 @@
+# Ignorisanje generisanih CSS i JS fajlova
+assets/css/
+assets/js/
+node_modules/
