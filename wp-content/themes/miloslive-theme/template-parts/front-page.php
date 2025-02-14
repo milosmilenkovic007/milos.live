@@ -3,13 +3,8 @@
 get_header(); ?>
 
 <main class="home-page">
-    <section class="hero">
-        <div class="hero-content">
-            <h1 class="hero-title">MILOS</h1>
-        </div>
-    </section>
     
-    <section class="about-section">
+    <section class="hero-section">
         <div class="container">
             <?php the_content(); ?>
         </div>

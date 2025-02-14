@@ -1,0 +1,37 @@
+{
+    "apiVersion": 2,
+    "name": "miloslive/hero-banner",
+    "title": "Hero Banner",
+    "category": "design",
+    "icon": "cover-image",
+    "keywords": ["hero", "banner", "header"],
+    "attributes": {
+        "mainImage": {
+            "type": "string",
+            "default": ""
+        },
+        "chessImages": {
+            "type": "array",
+            "default": ["", "", ""]
+        },
+        "designImage": {
+            "type": "string",
+            "default": ""
+        },
+        "subtitle": {
+            "type": "string",
+            "default": "Subtitle here..."
+        },
+        "description": {
+            "type": "string",
+            "default": "This is a description text."
+        },
+        "heading": {
+            "type": "string",
+            "default": "MILOS"
+        }
+    },
+    "editorScript": "file:./index.js",
+    "editorStyle": "file:./style.scss",
+    "style": "file:./style.scss"
+}

@@ -1,0 +1,81 @@
+.hero-banner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    background-color: black;
+    color: white;
+    position: relative;
+}
+
+.main-image {
+    max-width: 80%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.chess-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.chess-image {
+    width: 100px;
+    height: auto;
+}
+
+.design-image {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.hero-title {
+    font-family: "Montserrat", Sans-serif;
+    font-size: 250px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    word-spacing: 100px;
+}
+
+.hero-description {
+    font-size: 18px;
+    max-width: 600px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+@media (max-width: 1200px) {
+    .hero-title {
+        font-size: 180px;
+        word-spacing: 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .hero-title {
+        font-size: 120px;
+        word-spacing: 30px;
+        letter-spacing: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-title {
+        font-size: 80px;
+        word-spacing: 10px;
+        letter-spacing: 2px;
+    }
+}
