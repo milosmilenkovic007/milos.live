@@ -14,7 +14,7 @@ class Assets {
         }
 
         // Glavni JS fajl teme
-        wp_enqueue_script('miloslive-js', get_template_directory_uri() . '/assets/js/theme.js', ['jquery'], '1.0.0', true);
+        wp_enqueue_script('miloslive-js', get_template_directory_uri() . '/assets/js/main.js', ['jquery'], '1.0.0', true);
     }
 }
 
